@@ -1,0 +1,36 @@
+1) Para instalar una app node... ubicarse en la carperta del proyecto y  poner en la consola
+npm init
+
+Continuar con enters para poner los datos por defecto
+
+2) Para instalar yargs y colors a la vez poner la consola
+
+npm install --save yargs colors
+
+// con el --save vuelvo las librerias dependientes
+
+
+Subir a GIT
+--------------------
+3) Primero crear el repositorio en la web
+
+4) crear el archivo readme.md en el proyecto y poner la descripción del mismo.
+
+5) Crear el archivo .gitignore, aqui pones todo lo que no queremos que suba a git
+
+6) Entrar al git CMD y posicionarse sobre la carpeta a sunir
+
+7) ejecutar el comando git init, con esto creamos el proyecto git en la carpeta
+
+8)  ejecutar el comando git status, para ver el estado de los archivos a subir. todos los archivos apareceran en rojo
+
+ 9) ejecutar el comando git add .
+ para agregar estos archivos al git local, si ejecutamos el git status debería aparecer de color verde
+
+ 10) ejecutar git commit -m "Primer commit", le toma una foto al proyecto agregado, aun de manera local.
+
+ 11) Lo subiremos a git hub web copiando el código del repositorio, esto por primera vez:
+
+ git remote add origin https://github.com/edusan18/node-por-hacer.git
+
+ git push -u origin master
